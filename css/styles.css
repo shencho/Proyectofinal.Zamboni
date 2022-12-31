@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 30;
+  text-align: center;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: 500;
+  background: linear-gradient(to right, black, rgb(68, 68, 20));
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: linear-gradient(to right, black, rgb(68, 68, 20));
+  border-radius: 10%;
+  margin-bottom: 10px;
+}
+
+/*Contacto*/
+#navegadorContacto {
+  background: linear-gradient(to right, black, rgb(68, 68, 20));
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 20px;
+  text-decoration-line: none;
+  transition: all 0.5s;
+}
+
+#navegadorContacto:hover {
+  font-weight: 500px;
+  letter-spacing: 10px;
+}
+
+/*Carrito*/
+.fa-cart-shopping {
+  color: linear-gradient(to right, black, rgb(68, 68, 20));
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-right: 2.5rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #707070;
+}
+nav ul li a:hover {
+  color: red;
+}
+
+/*Boton mas nuestras bases*/
+.btn {
+  background: linear-gradient(to right, black, rgb(68, 68, 20));
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+/*modelos*/
+.imgprod {
+  height: 200px;
+  width: 200px;
+  position: center;
+  border-radius: 100%;
+}
+
+.fa-cart-shopping {
+  color: linear-gradient(to right, black, rgb(68, 68, 20));
+}
+
+.nav-link {
+  color: linear-gradient(to right, black, rgb(68, 68, 20));
+}
+
+/*Sizing*/
+.ttalles {
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: url("../img/muronegro.jpg");
+  background-repeat: repeat;
+  background-size: 25%;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.infoFooter {
+  width: 300px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.iconoFooter {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background: linear-gradient(to right, black, rgb(68, 68, 20));
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.dataFooter {
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-color: rgb(68, 68, 20);
+  border-style: double;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.controls {
+  display: block;
+  width: 300px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #3a3a3a;
+}
+
+#enviar {
+  background-color: linear-gradient(to right, black, rgb(68, 68, 20));
+  font-size: 18px;
+  padding: 10px;
+  color: linear-gradient(to right, black, rgb(68, 68, 20));
+  border: none;
+}
+
+@media (min-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: url("../img/muronegro.jpg");
+    background-repeat: repeat;
+    background-size: 5%;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+}
+.resumenNosotros {
+  font-size: 20px;
+  font-weight: lighter;
+  padding-bottom: 40px;
+  color: #3a3a3a;
+  text-align: justify;
+}
+
+.imagendesc {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+}
+
+.imagensapo {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+}
+
+.p1 {
+  padding-bottom: 50px;
+}
+
+/*# sourceMappingURL=styles.css.map */
